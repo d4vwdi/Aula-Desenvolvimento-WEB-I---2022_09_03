@@ -27,6 +27,10 @@ background-color: crimson;
 }
 
 
+.imagem{
+    width: 40%;
+    height: auto;
+}
 .menu{
     list-style: none;
     display: inline-flex;
@@ -105,6 +109,3 @@ padding: 0% 15%;
 
 }
 
-#rodape{
-
-}
