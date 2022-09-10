@@ -11,3 +11,100 @@ body{
     display: flex;
     width: 100%;
 }
+
+#topo{
+    width: 100%;
+    background-color: whitesmoke;
+    justify-content: center;
+    height: auto;
+}
+
+nav{
+width: 100%;
+height: auto;
+justify-content: center;
+background-color: crimson;
+}
+
+
+.menu{
+    list-style: none;
+    display: inline-flex;
+    justify-content:space-around;
+}
+
+.menu li{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3% 30% 3% 3%;
+}
+
+.menu li a{
+    color: white;
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none
+}
+
+.menu li a:hover{
+    color: black;
+    transition: 0.75s;
+    
+    }
+
+.menu li ul{
+display: none;
+list-style: none;
+position: absolute;
+
+background-color: crimson;
+
+}
+
+.menu li:hover ul{
+display:block;
+position: absolute;
+
+}
+
+.menu li ul li{
+    position: relative;
+    display: inline-block;
+    width: min-content;
+    top:5%;
+    left:0%;
+    
+
+    background-color: crimson;
+    
+    
+}
+
+.menu li ul li a{
+    position: relative;
+    display: inline-block;
+    width: max-content;
+    top: 5%;
+    left:0%;
+    background-color: crimson;
+    
+    
+}
+
+#conteudo{
+    min-height: 700px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#conteudo p, ol, h1, h2, img{
+padding: 0% 15%;
+
+
+}
+
+#rodape{
+
+}
