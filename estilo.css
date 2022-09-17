@@ -1,6 +1,7 @@
 *{
 margin: 5;
 padding: 5;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -31,6 +32,8 @@ background-color: crimson;
     width: 40%;
     height: auto;
 }
+
+/*Menu*/
 .menu{
     list-style: none;
     display: inline-flex;
@@ -45,7 +48,7 @@ background-color: crimson;
 
 .menu li a{
     color: white;
-    position:relative;
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none
@@ -67,8 +70,8 @@ background-color: crimson;
 }
 
 .menu li:hover ul{
-display:block;
-position: absolute;
+display: block;
+position: fixed;
 
 }
 
@@ -95,6 +98,7 @@ position: absolute;
     
     
 }
+/*Conteúdo*/
 
 #conteudo{
     min-height: 700px;
@@ -111,31 +115,38 @@ padding: 0% 15%;
 
 fieldset > label {
     float: left;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;  
+    width: 200%;
+   
 }
 
 fieldset{
     border: 2px solid crimson;
-    width: 400px;
+    width: auto;
     float: left;
-    display: justify;
+    display: inline;
     text-align:justify;
     margin:auto;
-    font-family: Arial, Helvetica, sans-serif;    
+    border-radius: 0%;
+    padding-inline-start: 3%;
+    clear: both;
+         
   }
 
+  /*Formulário*/
   form
 {
     text-align: center;
+    width: 100%;
 }
 
-label{
-    margin: 0% 0% 0% 0%;
-    padding: 0% 10% 0% 0%;
-    
+label, legend{
+    font-size: 1.5em;
+
+    padding: 2%;
 }
-input{
+input, select{
     text-align: left;
+    padding: 1% 5% 1% 5%;
+    border-radius: 15px;
 }
 
