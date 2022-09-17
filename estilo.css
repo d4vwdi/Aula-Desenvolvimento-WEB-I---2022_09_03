@@ -112,7 +112,8 @@ padding: 0% 15%;
 fieldset > label {
     float: left;
     width: 100%;
-  }
+    font-family: Arial, Helvetica, sans-serif;  
+}
 
 fieldset{
     border: 2px solid crimson;
@@ -121,6 +122,7 @@ fieldset{
     display: justify;
     text-align:justify;
     margin:auto;
+    font-family: Arial, Helvetica, sans-serif;    
   }
 
   form
