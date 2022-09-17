@@ -113,6 +113,8 @@ padding: 0% 15%;
 
 }
 
+  /*Formulário*/
+
 fieldset > label {
     float: left;
     width: 100%;
@@ -132,7 +134,7 @@ fieldset{
          
   }
 
-  /*Formulário*/
+
   form
 {
     text-align: center;
