@@ -109,5 +109,31 @@ padding: 0% 15%;
 
 }
 
+fieldset > label {
+    float: left;
+    width: 100%;
+  }
 
+fieldset{
+    border: 2px solid crimson;
+    width: 400px;
+    float: left;
+    display: justify;
+    text-align:justify;
+    margin:auto;
+  }
+
+  form
+{
+    text-align: center;
+}
+
+label{
+    margin: 0% 0% 0% 0%;
+    padding: 0% 10% 0% 0%;
+    
+}
+input{
+    text-align: left;
+}
 

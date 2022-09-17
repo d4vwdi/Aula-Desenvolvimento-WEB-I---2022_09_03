@@ -48,39 +48,47 @@
                 <br>
                 <label for="email"> Email:</label>
                 <input type="email" name="none" id="email" placeholder="E-mail principal" required>
+                <br>
+                <label for="CPF"> CPF:</label>
+                <input type="text" name="none" id="cpf" placeholder="CPF" required>
+                <br>
+                <label for="Telefone"> Telefone:</label>
+                <input type="number" name="none" id="telefone" placeholder="Telefone principal" required>
+
             </fieldset>
         <fieldset>            
             <legend>
                 Endereço:
             </legend>
                 
-            <label for="CEP"></label>
-                <input type="text" name="CEP" id="CEP" placeholder="CEP">
+            <label for="CEP">CEP:</label>
+                <input type="text" name="CEP" id="CEP" placeholder="CEP">              
+            <br>
                 
-            
-                <label for="numero"></label>
                 
-                <legend>
-                    Rua
-                </legend>
-                <label for="RUA:"></label>
-                <input type="text" name="rua" id="rua" placeholder="Nome da sua rua">
+               
+                <label for="rua">Rua:</label>
+                <input type="text" name="rua" id="rua" placeholder="Nome da sua rua"> <br>
 
-                <legend>
-                    Numero
-                </legend>
+                <label for="Numero">Número:</label>
                 <input type="number" name="numero" id="numero" placeholder="Numero">
-
-                <label for="Estado"></label>
-                <legend>
-                    Estado
-                </legend>
+                <br>
+                <label for="Estado">Estado:</label>
+               
                 <input type="text" name="numero" id="numeor" placeholder="UF">
                 </fieldset>
 
-                <label for=""></label>
-                <label for=""></label>
-                <label for=""></label>
+               <fieldset>
+                <legend>Cursos</legend>
+                <label for="cursos">Selecione o seu curso</label>
+                <select name="Cursos" id="cursos" required>
+                    <option value="Análise e desenvolvimento de sistemas">Análise e desenvolvimento de sistemas</option>
+                    <option value="Gestão empresarial">Gestão empresarial</option>
+                    <option value="Recursos Humanos">Recursos Humanos</option>
+                    <option value="Desenvolvimento de Software Multiplataforma">Desenvolvimento de Software Multiplataforma</option>
+                    <option value="Polímeros">Polímeros</option>
+                </select>
+               </fieldset>
             </form>
         </ol>
     </main>
