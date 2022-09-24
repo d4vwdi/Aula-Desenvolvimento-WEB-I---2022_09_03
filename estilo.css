@@ -157,9 +157,10 @@ input, select{
 }
 
 video{
-    width: 60%;
+    width: 40%;
+    margin: 2%;
     height: auto;
-    align-self: auto;
+    align-self: center;
 }
 
 footer{
