@@ -6,6 +6,8 @@ font-family: Arial, Helvetica, sans-serif;
 
 body{
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-container{
@@ -129,7 +131,7 @@ fieldset{
     text-align:justify;
     margin:auto;
     border-radius: 0%;
-    padding-inline-start: 3%;
+    padding-inline-start: auto;
     clear: both;
          
   }
@@ -138,7 +140,8 @@ fieldset{
   form
 {
     text-align: center;
-    width: 100%;
+    width: auto;
+    margin: auto;
 }
 
 label, legend{
@@ -152,3 +155,7 @@ input, select{
     border-radius: 15px;
 }
 
+
+footer{
+flex-shrink: 0;
+}
