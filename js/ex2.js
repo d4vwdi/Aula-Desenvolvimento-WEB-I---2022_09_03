@@ -21,5 +21,5 @@ function validar(){
     //(?=.*[a-z]) - mínimo uma letra minúscula
     //(?=.*[0-9]) - mínimo um número
     //(?=.*[^\w\s]) - mínimo um caractere especial
-    //.{6,10} - mínimo 6 e máximo 10 caracteres
+    //.{6,10}  mínimo 6 e máximo 10 caracteres
 }
