@@ -9,7 +9,7 @@ function validar(){
         return false
     }
 
-    if(senha != confirmsenha){
+    if(senha !== confirmsenha){
         alert("Senhas não conferem")
         cadastro.senha.focus()
         return false
