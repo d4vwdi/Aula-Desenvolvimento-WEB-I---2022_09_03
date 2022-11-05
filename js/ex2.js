@@ -8,4 +8,10 @@ function validar(){
         cadastro.cpf.focus()
         return false
     }
+
+    if(senha != confirmsenha){
+        alert("Senhas não conferem")
+        cadastro.senha.focus()
+        return false
+    }
 }
