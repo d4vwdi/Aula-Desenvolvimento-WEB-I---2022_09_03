@@ -6,5 +6,6 @@ function validar(){
     if(isNaN(cpf)){
         alert("Informe apenas números para o campo CPF")
         cadastro.cpf.focus()
+        return false
     }
 }
